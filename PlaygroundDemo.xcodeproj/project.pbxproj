@@ -15,14 +15,20 @@
 		E42263DD1522A986003E2CE2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E42263DC1522A986003E2CE2 /* AppDelegate.m */; };
 		E42263E21522A986003E2CE4 /* ControlsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E42263E21522A986003E2CE3 /* ControlsViewController.m */; };
 		E42263E21522A986003E2CE7 /* TextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E42263E21522A986003E2CE6 /* TextViewController.m */; };
-		E492976D1527A9F2007AB1E4 /* PGWindow.m in Sources */ = {isa = PBXBuildFile; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		E492976E1527A9F2007AB1E4 /* PGInputView.m in Sources */ = {isa = PBXBuildFile; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		E492976F1527A9F2007AB1E4 /* PGMenuView.m in Sources */ = {isa = PBXBuildFile; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		E49297701527A9F2007AB1E4 /* PGTargetView.m in Sources */ = {isa = PBXBuildFile; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		E49297711527A9F2007AB1E4 /* PGToolbar.m in Sources */ = {isa = PBXBuildFile; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		E49297731527AA9C007AB1E4 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E49297721527AA9C007AB1E4 /* QuartzCore.framework */; };
 		E49297751527AC5A007AB1E4 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E49297741527AC5A007AB1E4 /* MessageUI.framework */; };
+		E4F9CFF1158EC8520049407E /* libPlayground.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4F9CFEF158EC81C0049407E /* libPlayground.a */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E4F9CFEE158EC81C0049407E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4F9CFE7158EC81C0049407E /* Playground.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E4BCF91E1503D3BC0092052F;
+			remoteInfo = Playground;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		E42263C81522A986003E2CE2 /* PlaygroundDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlaygroundDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -41,6 +47,7 @@
 		E42263E21522A986003E2CE8 /* TextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextViewController.h; sourceTree = "<group>"; };
 		E49297721527AA9C007AB1E4 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		E49297741527AC5A007AB1E4 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		E4F9CFE7158EC81C0049407E /* Playground.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Playground.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4F9CFF1158EC8520049407E /* libPlayground.a in Frameworks */,
 				E49297751527AC5A007AB1E4 /* MessageUI.framework in Frameworks */,
 				E49297731527AA9C007AB1E4 /* QuartzCore.framework in Frameworks */,
 				E42263CD1522A986003E2CE2 /* UIKit.framework in Frameworks */,
@@ -117,8 +125,25 @@
 		E492975E1527A9BE007AB1E4 /* External */ = {
 			isa = PBXGroup;
 			children = (
+				E49297751527AC5A007AB1E5 /* Playground */,
 			);
 			path = External;
+			sourceTree = "<group>";
+		};
+		E49297751527AC5A007AB1E5 /* Playground */ = {
+			isa = PBXGroup;
+			children = (
+				E4F9CFE7158EC81C0049407E /* Playground.xcodeproj */,
+			);
+			path = Playground;
+			sourceTree = "<group>";
+		};
+		E4F9CFE8158EC81C0049407E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E4F9CFEF158EC81C0049407E /* libPlayground.a */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,12 +185,28 @@
 			mainGroup = E42263BD1522A986003E2CE2;
 			productRefGroup = E42263C91522A986003E2CE2 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = E4F9CFE8158EC81C0049407E /* Products */;
+					ProjectRef = E4F9CFE7158EC81C0049407E /* Playground.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				E42263C71522A986003E2CE2 /* PlaygroundDemo */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		E4F9CFEF158EC81C0049407E /* libPlayground.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libPlayground.a;
+			remoteRef = E4F9CFEE158EC81C0049407E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		E42263C61522A986003E2CE2 /* Resources */ = {
@@ -187,11 +228,6 @@
 				E42263DD1522A986003E2CE2 /* AppDelegate.m in Sources */,
 				E42263E21522A986003E2CE4 /* ControlsViewController.m in Sources */,
 				E42263E21522A986003E2CE7 /* TextViewController.m in Sources */,
-				E492976D1527A9F2007AB1E4 /* PGWindow.m in Sources */,
-				E492976E1527A9F2007AB1E4 /* PGInputView.m in Sources */,
-				E492976F1527A9F2007AB1E4 /* PGMenuView.m in Sources */,
-				E49297701527A9F2007AB1E4 /* PGTargetView.m in Sources */,
-				E49297711527A9F2007AB1E4 /* PGToolbar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,6 +268,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
+				USER_HEADER_SEARCH_PATHS = "External/**";
 			};
 			name = Debug;
 		};
@@ -252,6 +289,7 @@
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
+				USER_HEADER_SEARCH_PATHS = "External/**";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
