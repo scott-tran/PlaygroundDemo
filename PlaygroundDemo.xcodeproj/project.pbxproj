@@ -15,11 +15,11 @@
 		E42263DD1522A986003E2CE2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E42263DC1522A986003E2CE2 /* AppDelegate.m */; };
 		E42263E21522A986003E2CE4 /* ControlsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E42263E21522A986003E2CE3 /* ControlsViewController.m */; };
 		E42263E21522A986003E2CE7 /* TextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E42263E21522A986003E2CE6 /* TextViewController.m */; };
-		E492976D1527A9F2007AB1E4 /* PGWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = E49297631527A9F2007AB1E4 /* PGWindow.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		E492976E1527A9F2007AB1E4 /* PGInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = E49297661527A9F2007AB1E4 /* PGInputView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		E492976F1527A9F2007AB1E4 /* PGMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = E49297681527A9F2007AB1E4 /* PGMenuView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		E49297701527A9F2007AB1E4 /* PGTargetView.m in Sources */ = {isa = PBXBuildFile; fileRef = E492976A1527A9F2007AB1E4 /* PGTargetView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		E49297711527A9F2007AB1E4 /* PGToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = E492976C1527A9F2007AB1E4 /* PGToolbar.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E492976D1527A9F2007AB1E4 /* PGWindow.m in Sources */ = {isa = PBXBuildFile; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E492976E1527A9F2007AB1E4 /* PGInputView.m in Sources */ = {isa = PBXBuildFile; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E492976F1527A9F2007AB1E4 /* PGMenuView.m in Sources */ = {isa = PBXBuildFile; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E49297701527A9F2007AB1E4 /* PGTargetView.m in Sources */ = {isa = PBXBuildFile; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E49297711527A9F2007AB1E4 /* PGToolbar.m in Sources */ = {isa = PBXBuildFile; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		E49297731527AA9C007AB1E4 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E49297721527AA9C007AB1E4 /* QuartzCore.framework */; };
 		E49297751527AC5A007AB1E4 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E49297741527AC5A007AB1E4 /* MessageUI.framework */; };
 /* End PBXBuildFile section */
@@ -39,17 +39,6 @@
 		E42263E21522A986003E2CE5 /* ControlsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ControlsViewController.h; sourceTree = "<group>"; };
 		E42263E21522A986003E2CE6 /* TextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextViewController.m; sourceTree = "<group>"; };
 		E42263E21522A986003E2CE8 /* TextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextViewController.h; sourceTree = "<group>"; };
-		E49297611527A9F2007AB1E4 /* PGAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PGAction.h; sourceTree = "<group>"; };
-		E49297621527A9F2007AB1E4 /* PGWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PGWindow.h; sourceTree = "<group>"; };
-		E49297631527A9F2007AB1E4 /* PGWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PGWindow.m; sourceTree = "<group>"; };
-		E49297651527A9F2007AB1E4 /* PGInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PGInputView.h; sourceTree = "<group>"; };
-		E49297661527A9F2007AB1E4 /* PGInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PGInputView.m; sourceTree = "<group>"; };
-		E49297671527A9F2007AB1E4 /* PGMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PGMenuView.h; sourceTree = "<group>"; };
-		E49297681527A9F2007AB1E4 /* PGMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PGMenuView.m; sourceTree = "<group>"; };
-		E49297691527A9F2007AB1E4 /* PGTargetView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PGTargetView.h; sourceTree = "<group>"; };
-		E492976A1527A9F2007AB1E4 /* PGTargetView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PGTargetView.m; sourceTree = "<group>"; };
-		E492976B1527A9F2007AB1E4 /* PGToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PGToolbar.h; sourceTree = "<group>"; };
-		E492976C1527A9F2007AB1E4 /* PGToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PGToolbar.m; sourceTree = "<group>"; };
 		E49297721527AA9C007AB1E4 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		E49297741527AC5A007AB1E4 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
@@ -128,35 +117,8 @@
 		E492975E1527A9BE007AB1E4 /* External */ = {
 			isa = PBXGroup;
 			children = (
-				E49297601527A9F2007AB1E4 /* Playground */,
 			);
 			path = External;
-			sourceTree = "<group>";
-		};
-		E49297601527A9F2007AB1E4 /* Playground */ = {
-			isa = PBXGroup;
-			children = (
-				E49297611527A9F2007AB1E4 /* PGAction.h */,
-				E49297621527A9F2007AB1E4 /* PGWindow.h */,
-				E49297631527A9F2007AB1E4 /* PGWindow.m */,
-				E49297641527A9F2007AB1E4 /* View */,
-			);
-			path = Playground;
-			sourceTree = "<group>";
-		};
-		E49297641527A9F2007AB1E4 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				E49297651527A9F2007AB1E4 /* PGInputView.h */,
-				E49297661527A9F2007AB1E4 /* PGInputView.m */,
-				E49297671527A9F2007AB1E4 /* PGMenuView.h */,
-				E49297681527A9F2007AB1E4 /* PGMenuView.m */,
-				E49297691527A9F2007AB1E4 /* PGTargetView.h */,
-				E492976A1527A9F2007AB1E4 /* PGTargetView.m */,
-				E492976B1527A9F2007AB1E4 /* PGToolbar.h */,
-				E492976C1527A9F2007AB1E4 /* PGToolbar.m */,
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
