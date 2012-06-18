@@ -15,8 +15,6 @@
 		E42263DD1522A986003E2CE2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E42263DC1522A986003E2CE2 /* AppDelegate.m */; };
 		E42263E21522A986003E2CE4 /* ControlsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E42263E21522A986003E2CE3 /* ControlsViewController.m */; };
 		E42263E21522A986003E2CE7 /* TextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E42263E21522A986003E2CE6 /* TextViewController.m */; };
-		E49297731527AA9C007AB1E4 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E49297721527AA9C007AB1E4 /* QuartzCore.framework */; };
-		E49297751527AC5A007AB1E4 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E49297741527AC5A007AB1E4 /* MessageUI.framework */; };
 		E4F9CFF1158EC8520049407E /* libPlayground.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4F9CFEF158EC81C0049407E /* libPlayground.a */; };
 /* End PBXBuildFile section */
 
@@ -45,8 +43,6 @@
 		E42263E21522A986003E2CE5 /* ControlsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ControlsViewController.h; sourceTree = "<group>"; };
 		E42263E21522A986003E2CE6 /* TextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextViewController.m; sourceTree = "<group>"; };
 		E42263E21522A986003E2CE8 /* TextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextViewController.h; sourceTree = "<group>"; };
-		E49297721527AA9C007AB1E4 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		E49297741527AC5A007AB1E4 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		E4F9CFE7158EC81C0049407E /* Playground.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Playground.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -56,8 +52,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				E4F9CFF1158EC8520049407E /* libPlayground.a in Frameworks */,
-				E49297751527AC5A007AB1E4 /* MessageUI.framework in Frameworks */,
-				E49297731527AA9C007AB1E4 /* QuartzCore.framework in Frameworks */,
 				E42263CD1522A986003E2CE2 /* UIKit.framework in Frameworks */,
 				E42263CF1522A986003E2CE2 /* Foundation.framework in Frameworks */,
 				E42263D11522A986003E2CE2 /* CoreGraphics.framework in Frameworks */,
@@ -88,8 +82,6 @@
 		E42263CB1522A986003E2CE2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				E49297741527AC5A007AB1E4 /* MessageUI.framework */,
-				E49297721527AA9C007AB1E4 /* QuartzCore.framework */,
 				E42263CC1522A986003E2CE2 /* UIKit.framework */,
 				E42263CE1522A986003E2CE2 /* Foundation.framework */,
 				E42263D01522A986003E2CE2 /* CoreGraphics.framework */,
